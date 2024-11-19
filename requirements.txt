@@ -1,0 +1,5 @@
+Flask==2.0.3
+
+docker build -t app .
+docker run -p 4000:80 app
+
